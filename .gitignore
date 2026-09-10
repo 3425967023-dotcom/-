@@ -30,7 +30,7 @@ desktop.ini
 # ---- 数据与输出（按需保留）----
 *.log
 *.tmp
-output/
+# output/    ← 已放开：图表是本课程的实验成果，需要随作业上传到 GitHub
 data/raw/
 
 # ---- WorkBuddy 本地数据 ----
