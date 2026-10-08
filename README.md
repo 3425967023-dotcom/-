@@ -106,8 +106,8 @@ python run_all.py --list       # 只列出实验清单
 streamlit run course_b_excel_visualization/b05_dashboard/app.py
 ```
 
-产出位置：每个实验的 `output/` 目录。共 **111 个产出文件**（图表 png / 动图 gif /
-交互 html / 结果 csv）。
+产出位置：每个实验的 `output/` 目录。共 **81 个产出文件**：
+58 张 png 图表、19 张结果 csv、2 个 gif 动图、2 个交互 html。
 
 ---
 
@@ -129,6 +129,10 @@ streamlit run course_b_excel_visualization/b05_dashboard/app.py
   `load()` 会按 `utf-8-sig → gbk → utf-8` 顺序自动重试，不会抛 `UnicodeDecodeError`；
 - B03 的 30 个图表使用**内置数据**（已与 Excel 逐格核对），不装 pandas 也能出图；
   如需核对原始数据，可调用 `b03_gallery/main.py` 里的 `load_excel_data()`。
+
+**重跑后 git 显示 2 个 html 被修改？** 属正常现象。plotly 导出的 html 里含有每次生成都不同的
+随机 `div id`（`A03_extended_methods/output/A03_06_sankey.html`、
+`b04_dynamic/output/B04_plotly_dynamic.html`），内容语义不变，提交时一并提交即可。
 
 ---
 
