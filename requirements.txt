@@ -1,0 +1,10 @@
+# 商业数据分析与可视化实验 —— 依赖清单
+# 安装：pip install -r requirements.txt
+
+pandas>=2.0
+numpy>=1.24
+openpyxl>=3.1          # pandas 读写 xlsx 引擎
+matplotlib>=3.7        # 静态图表主力
+plotly>=5.18           # 桑基图 / 交互动态图
+streamlit>=1.30        # B05 交互大屏（可选，仅 app.py 需要）
+Pillow>=10.0           # matplotlib 导出 gif 动画所需

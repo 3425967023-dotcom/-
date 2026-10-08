@@ -1,0 +1,49 @@
+﻿年龄段,品类,订单数
+46-60,Clothing,368
+26-35,Clothing,260
+36-45,Clothing,256
+>60,Clothing,238
+19-25,Clothing,202
+46-60,Cosmetics,192
+46-60,Food & Beverage,163
+36-45,Cosmetics,120
+46-60,Toys,119
+36-45,Food & Beverage,118
+26-35,Cosmetics,118
+46-60,Shoes,117
+>60,Cosmetics,117
+26-35,Food & Beverage,109
+>60,Food & Beverage,96
+19-25,Cosmetics,88
+26-35,Shoes,86
+26-35,Toys,78
+19-25,Food & Beverage,75
+36-45,Toys,72
+>60,Shoes,66
+36-45,Shoes,65
+>60,Toys,64
+46-60,Books,60
+19-25,Shoes,57
+46-60,Technology,53
+36-45,Books,49
+19-25,Toys,47
+46-60,Souvenir,45
+36-45,Souvenir,45
+26-35,Souvenir,43
+36-45,Technology,39
+26-35,Books,38
+>60,Souvenir,35
+>60,Books,29
+26-35,Technology,29
+>60,Technology,29
+19-25,Technology,25
+19-25,Souvenir,23
+≤18,Clothing,20
+19-25,Books,19
+≤18,Cosmetics,13
+≤18,Food & Beverage,12
+≤18,Shoes,10
+≤18,Books,6
+≤18,Toys,5
+≤18,Souvenir,4
+≤18,Technology,4

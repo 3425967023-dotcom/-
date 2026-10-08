@@ -27,11 +27,16 @@ ENV/
 Thumbs.db
 desktop.ini
 
-# ---- 数据与输出（按需保留）----
+# ---- 临时文件 ----
 *.log
 *.tmp
-# output/    ← 已放开：图表是本课程的实验成果，需要随作业上传到 GitHub
-data/raw/
+~$*                      # Office 打开文件时产生的临时文件
+
+# ---- 本地运行产物（不入库）----
+# 注意：course_*/*/output/ 是实验成果（图表 / 结果表），需要随作业上传，
+#      因此这里 **不** 忽略 output/ 目录。
+run_all_report.txt
+*.db                     # A09 若改用文件型 sqlite 数据库则不入库
 
 # ---- WorkBuddy 本地数据 ----
 .workbuddy/
